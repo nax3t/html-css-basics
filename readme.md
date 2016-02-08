@@ -14,6 +14,8 @@ Styling makes use of **selectors** to select an element from the page and give i
 
 Each of the items below is linked to its documentation on the [Mozilla Developer Network](https://developer.mozilla.org/en-US/) website. You may come across w3schools in your Google searches, although there is some good information on this website, it is typically looked down upon due to having outdated information and not always using best practices, try to use MDN over w3schools whenever possible, it helps to prefix your search with "mdn". This mainly applies to HTML, CSS, and JavaScript (JS) syntax searches, most everything else can be found elsewhere on Google or on [StackOverflow](http://stackoverflow.com/).
 
+HTML tags represent the various HTML **elements**. Tags are simply the element name prefixed with a *less-than* **<** symbol and suffixed with a *greater-than* **>** symbol. Don't forget, closing tags have a forward slash **/** that comes immediately after the initial *less-than* **<** symbol. E.g., `<div>Some content here</div>`. We haven't talked about the **div** or **division** element yet, but we'll get to that shortly.
+
 ##HTML Skeleton
 - [doctype](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5/Introduction_to_HTML5)
 - [html](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/html)
@@ -47,7 +49,7 @@ Great, you should now have a basic understanding of what it takes to build a web
 - [clear](https://developer.mozilla.org/en-US/docs/Web/CSS/clear)
 
 
-##Connecting your CSS to your HTML Sheet 
+##Connecting your CSS sheet to your HTML Document
 - Inline CSS is possible, but it’s better to keep it external using the [link](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link) tag. This allows us to follow convention for separation of concerns or [SoC](https://en.wikipedia.org/wiki/Separation_of_concerns)
 - Example of linking CSS: `<link href="styles.css" type="text/css">`
 

@@ -49,6 +49,32 @@ header p {
 	margin-top: 5px;
 }
 
+nav {
+	background-color: #000;
+	text-align: center;
+	height: 40px;
+	line-height: 40px;
+}
+
+	nav ul {
+		margin: 0;
+		list-style-type: none;
+	}
+
+	nav li {
+		display: inline;
+		padding: 15px;
+	}
+
+	nav li:hover {
+		background: #444;
+	}
+
+	nav li a {
+		color: #fff;
+		text-decoration: none;
+	}
+
 section {
 	clear: both;
 }
